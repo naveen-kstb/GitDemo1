@@ -17,6 +17,12 @@ print(sheet["A3"].value)
 
 print(sheet["A5"].value)
 
+print(sheet["A2"].value)
+
+print(sheet["A1"].value)
+
+print(sheet["B3"].value)
+
 for i in range(1, sheet.max_row + 1):  # To get Rows
     if sheet.cell(row=i, column=1).value == "Testcase 1":
 
