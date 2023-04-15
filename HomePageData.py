@@ -4,7 +4,10 @@ import openpyxl
 class HomePageData:
     test_HomePage_data = [{"firstname": "Naveen", "email": "hello@gmail.com", "gender": "Male"},
                           {"firstname": "Saisha", "email": "hello@gmail.com", "gender": "Female"},
-                          {"firstname": "Rahul", "email": "hello@gmail.com", "gender": "Male"}]
+                          {"firstname": "Rahul", "email": "hello@gmail.com", "gender": "Male"},
+                          {"firstname": "Prashanth", "email": "hello@gmail.com", "gender": "Male"},
+                          {"firstname": "Jana", "email": "hello@gmail.com", "gender": "Male"},
+                          {"firstname": "Sweta", "email": "hello@gmail.com", "gender": "Female"},]
 
     @staticmethod
     def getTestData(test_case_name):

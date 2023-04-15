@@ -15,6 +15,8 @@ print(sheet.max_column)
 
 print(sheet["A3"].value)
 
+print(sheet["A5"].value)
+
 for i in range(1, sheet.max_row + 1):  # To get Rows
     if sheet.cell(row=i, column=1).value == "Testcase 1":
 
